@@ -1,0 +1,31 @@
+@import "../css/header.css";
+@import "../css/main.css";
+
+
+/* cores da pagina */
+
+:root{
+    --cor_branca: white;
+    --cor_azul: rgb(3, 138, 131);
+}
+
+
+/* configuracao geral */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-width: 1280px;
+}
+
+.limite_da_pagina{
+    margin: 0px 200px;
+}
+
+
+

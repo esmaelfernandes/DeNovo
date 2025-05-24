@@ -1,0 +1,53 @@
+header{
+    margin-top: 30px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header nav .logotipo_da_empresa img{
+    width: 120px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    transition: 0.4s;
+
+}
+
+header nav ul li a:hover{
+    border-bottom: 6px solid var(--cor_azul);
+}
+
+
+header nav .contatos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header nav .contatos .rede_social{
+    width: 23px;
+    height: 23px;
+}
+
+header nav .contatos button{
+    padding: 8px 15px;
+} 
+
+
+    

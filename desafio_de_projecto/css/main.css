@@ -1,0 +1,61 @@
+main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    height: 500px;
+    }
+
+
+main h1{
+    font-size: 40px;
+    color: white;
+    line-height: 4rem;
+}
+
+main h2{
+    font-size: 17px;
+}
+
+main .servicos{
+    margin-top: 18rem;
+}
+
+main .servicos .breve_introducao h2{
+    color: var(--cor_azul);
+}
+
+main .servicos .categorias_dos_servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 300px;
+
+}
+
+main .servicos .categorias_dos_servicos{
+   width: 100%;
+   border-radius: 10px;
+}
+
+main .servicos h3{
+    color: var(--cor_azul);
+    margin: 10px 0px;
+}
+
+main .servicos button{
+   background-color: var(--cor_azul);
+   padding: 10px 12px;
+   border-radius: 10px;
+   font-size: 15px;
+   color: var(--cor_branca);
+   margin-top: 10px;
+   transition: 0.3s;
+}
+
+
+main .servicos button:hover{
+    background-color: rgb(16, 75, 75);
+
+}
+
